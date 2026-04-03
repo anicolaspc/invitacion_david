@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Invitación Cumpleaños David – Hot Wheels</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700;900&family=Barlow:wght@400;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="track-bg">
+    <div class="track-line t1"></div>
+    <div class="track-line t2"></div>
+    <div class="track-line t3"></div>
+    <div class="spark s1"></div>
+    <div class="spark s2"></div>
+    <div class="spark s3"></div>
+    <div class="spark s4"></div>
+  </div>
+  <div class="package-wrapper" id="package">
+    <div class="package-card front">
+      <div class="top-band">
+        <img src="assets/logo.png" alt="logo hot wheels" class="logo">
+        <div class="age-badge">
+          <span class="age-num" id="age-display">35</span>
+          <span class="age-label">AÑOS</span>
+        </div>
+      </div>
+      <div class="blister-window">
+        <div class="window-glare"></div>
+        <div class="event-banner">
+          <img src="/assets/carro.png" alt="carro hot wheels" class="car-illustration">
+          <div class="event-pre">¡ESTÁS INVITADO AL</div>
+          <div class="event-title">CUMPLEAÑOS<br />DE DAVID</div>
+        </div>
+      </div>
+      <div class="info-band">
+        <div class="info-grid">
+          <div class="info-block">
+            <span class="info-label">📅 FECHA</span>
+            <span class="info-value">22 JULIO 2026</span>
+          </div>
+          <div class="divider-v"></div>
+          <div class="info-block">
+            <span class="info-label">⏰ HORA</span>
+            <span class="info-value" id="hora-valor">7:00 PM</span>
+          </div>
+          <div class="divider-v"></div>
+          <div class="info-block">
+            <span class="info-label">📍 LUGAR</span>
+            <span class="info-value" id="lugar-valor">CALLE 9 #8-17</span>
+          </div>
+        </div>
+      </div>
+      <div class="barcode-area">
+        <div class="barcode">
+          <span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <span class="barcode-num">HW-2026-DAVID</span>
+      </div>
+      <div class="collector-sticker">
+        <span>EDICIÓN<br />ESPECIAL</span>
+      </div>
+    </div>
+    <div class="package-card back">
+      <div class="back-header">
+        <img src="/assets/logo.png" alt="logo hot wheels" class="logo">
+        <span class="back-sub">BIRTHDAY EDITION</span>
+      </div>
+      <div class="back-content">
+        <div class="back-photo-frame">
+          <div class="photo-placeholder">
+            <img src="/assets/foto-perfil.jpg" alt="Foto perfil" class="back-photo">
+          </div>
+        </div>
+        <div class="back-details">
+          <p class="back-p">🏁 ¡Prepara tu motor porque viene una fiesta a toda velocidad!</p>
+          <div class="back-info-list">
+            <div class="back-item">
+              <span class="bi-text"><strong>Modelo: </strong> 1991</span>
+            </div>
+            <div class="back-item">
+              <span class="bi-text"><strong>Fabrica: </strong>Peña Cobos</span>
+            </div>
+            <div class="back-item">
+              <span class="bi-text"><strong>Placa: </strong>SD0722</span>
+            </div>
+          </div>
+          <p class="back-p" style="margin-top:12px;">¡No faltes! Habrá pista de carreras, torta y velocidad máxima 🏎️💨
+          </p>
+        </div>
+      </div>
+      <div class="hw-counter premium">
+        <span class="label">🏎️ Faltan</span>
+        <div class="hw-counter-row">
+          <div class="counter-box">
+            <span class="num" id="countdown-days">00</span>
+            <span class="label">DÍAS</span>
+          </div>
+          <div class="counter-box">
+            <span class="num" id="countdown-hours">00</span>
+            <span class="label">HORAS</span>
+          </div>
+          <div class="counter-box">
+            <span class="num" id="countdown-minutes">00</span>
+            <span class="label">MIN</span>
+          </div>
+          <div class="counter-box">
+            <span class="num" id="countdown-seconds">00</span>
+            <span class="label">SEG</span>
+          </div>
+        </div>
+      </div>
+      <div class="back-footer">
+        <span>© Hot Wheels Birthday – Edición Limitada David 2026</span>
+      </div>
+    </div>
+  </div>
+  <div class="controls">
+    <button class="btn-flip" id="btnFlip">🔄 Ver Reverso</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
